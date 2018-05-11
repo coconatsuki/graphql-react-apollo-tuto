@@ -36,6 +36,7 @@ _executeSearch = async () => {
   const links = result.data.feed.links
   this.setState({ links })
 }
+}
 
 const FEED_SEARCH_QUERY = gql`
   query FeedSearchQuery($filter: String!) {
